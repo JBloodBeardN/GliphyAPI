@@ -1,5 +1,23 @@
-header footer{
+header, footer{
 background-color:darkblue;
 color:linen;
 min-height: 10vh;
 }
+header{
+    margin-bottom: 2vh;
+}
+footer{
+    margin-top:2vh;
+}
+
+#buttonList{
+    margin-bottom: 2vh;
+}
+ #newButtonForm{
+     margin-bottom: 2vh;
+ }
+
+ .gifCard {
+     border: 2px solid black;
+     max-width:25vw;
+ }
