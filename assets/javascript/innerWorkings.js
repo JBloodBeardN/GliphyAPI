@@ -34,11 +34,11 @@ function printGifs(arrayObject, targetDiv){
             var newRating = $('<p> Rating:'+object.rating+'</p>');
             var newGif = $('<img>')
             .addClass("gifAnimate")
-            .attr("src", object.images.fixed_width_still.url)
+            .attr("src", object.images.original_still.url)
             .attr("valueFlag", "still")
-            .attr("data-gifLink", object.images.fixed_width.url)
-            .attr("data-stillLink", object.images.fixed_width_still.url);
-            console.log(object.title + ""+ object.rating+""+object.images.fixed_width_still.url)
+            .attr("data-gifLink", object.images.original.url)
+            .attr("data-stillLink", object.images.original_still.url);
+            console.log(object.title + ""+ object.rating+""+object.images.original_still.url)
             newCard.append(newGif);
             newCard.append(newRating);
             newCard.append(newTitle);

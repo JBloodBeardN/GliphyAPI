@@ -19,5 +19,11 @@ footer{
 
  .gifCard {
      border: 2px solid black;
-     max-width:25vw;
+     width:20vw;
+     min-width:17vw;
+     padding:1rem;
+ }
+
+ .gifAnimate {
+    width:90%;
  }
